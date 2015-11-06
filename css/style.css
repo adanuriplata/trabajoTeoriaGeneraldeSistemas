@@ -12,7 +12,10 @@ Premium: http://www.gridgum.com
 /* BASIC THEME CONFIGURATION */
 body {
     color: #797979;
-	background: #f2f2f2;
+	/*background: #f2f2f2;*/
+    /*background-image: url('images/autos.gif') center center cover no-repeat fixed;*/
+    background: url(../images/autos.gif) left ;
+    background-size: cover;
     font-family: 'Ruda', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
@@ -1936,13 +1939,15 @@ label {
 	margin: 0;
 	padding: 25px 20px;
 	text-align: center;
+    /*background: url(../images/ny.jpg) ;*/
 	background: #68dff0;
 	border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
 	color: #fff;
-	font-size: 20px;
+	font-size: 30px;
 	text-transform: uppercase;
 	font-weight: 300;
+
 }
 .login-wrap {
 	padding: 20px;
