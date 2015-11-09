@@ -53,7 +53,7 @@
                       	<div class="col-md-4 col-sm-4 mb">
                       		<div class="white-panel pn donut-chart">
                       			<div class="white-header">
-						  			<h5>SERVER LOAD</h5>
+						  			<h5>Objetivo Ventas</h5>
                       			</div>
 								<div class="row">
 									<div class="col-sm-6 col-xs-6 goleft">
@@ -345,7 +345,7 @@
                       		<img class="img-circle" src="assets/img/ui-sam.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
-                      		<p><a href="#">Marcel Newman</a><br/>
+                      		<p><a href="#">Pancho Pantera</a><br/>
                       		   <muted>Available</muted>
                       		</p>
                       	</div>

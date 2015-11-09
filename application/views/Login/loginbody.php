@@ -9,23 +9,23 @@
 	  <div id="login-page">
 	  	<div class="container">
 	  	
-		      <form class="form-login" action="index.html">
+		      <form class="form-login" action="" method="POST">
 		      	
 		        <h2 class="form-login-heading">
 		        	<a href="#"><img src="assets/images/logo3.png" alt="Company Logo" /></a>
 
 		        </h2>
 		        <div class="login-wrap">
-		            <input type="text" class="form-control" placeholder="Usuario" autofocus>
+		            <input type="text" name="username" id="username" class="form-control" placeholder="Usuario" autofocus>
 		            <br>
-		            <input type="password" class="form-control" placeholder="Contraseña">
+		            <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña">
 		            <label class="checkbox">
 		                <span class="pull-right">
 		                    <a data-toggle="modal" href="login.html#myModal"> Olvido su Contraseña?</a>
 		
 		                </span>
 		            </label>
-		            <button class="btn btn-theme btn-block" href="index.html" type="submit"><i class="fa fa-lock"></i> Ingresar</button>
+		            <button class="btn btn-theme btn-block" type="submit"><i class="fa fa-lock"></i> Ingresar</button>
 		            <hr>
 		            
 		           

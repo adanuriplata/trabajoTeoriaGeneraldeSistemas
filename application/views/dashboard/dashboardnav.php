@@ -4,23 +4,23 @@
               <!-- sidebar menu start-->
               <ul class="sidebar-menu" id="nav-accordion">
               
-              	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
-              	  <h5 class="centered">Marcel Newman</h5>
+              	  <p class="centered"><a href="profile.html"><img src="<?=base_url();?>/assets/img/ui-sam.png" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Pancho Pantera</h5>
               	  	
                   <li class="mt">
                       <a class="active" href="index.html">
                           <i class="fa fa-dashboard"></i>
-                          <span>Dashboard</span>
+                          <span>Tablero Principal</span>
                       </a>
                   </li>
 
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-desktop"></i>
-                          <span>UI Elements</span>
+                          <span>Clientes</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="general.html">General</a></li>
+                          <li><a  href="general.html">Pagos</a></li>
                           <li><a  href="buttons.html">Buttons</a></li>
                           <li><a  href="panels.html">Panels</a></li>
                       </ul>
@@ -29,21 +29,21 @@
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-cogs"></i>
-                          <span>Components</span>
+                          <span>Reclamaciones</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="calendar.html">Calendar</a></li>
-                          <li><a  href="gallery.html">Gallery</a></li>
-                          <li><a  href="todo_list.html">Todo List</a></li>
+                          <li><a  href="calendar.html">Siniestros</a></li>
+                          <li><a  href="gallery.html">Orden de Servicio</a></li>
+                          <li><a  href="todo_list.html"></a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-book"></i>
-                          <span>Extra Pages</span>
+                          <span>Agentes</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="blank.html">Blank Page</a></li>
+                          <li><a  href="blank.html">Nomina</a></li>
                           <li><a  href="login.html">Login</a></li>
                           <li><a  href="lock_screen.html">Lock Screen</a></li>
                       </ul>
@@ -51,10 +51,10 @@
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-tasks"></i>
-                          <span>Forms</span>
+                          <span>Rentabilidad</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="form_component.html">Form Components</a></li>
+                          <li><a  href="form_component.html">Estadisticas</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
