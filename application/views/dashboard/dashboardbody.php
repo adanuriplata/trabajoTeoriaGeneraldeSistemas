@@ -11,24 +11,24 @@
                   	<div class="row mtbox">
                   		<div class="col-md-2 col-sm-2 col-md-offset-1 box0">
                   			<div class="box1">
-					  			<span class="li_heart"></span>
-					  			<h3>933</h3>
+					  			<span class="li_data"></span>
+					  			<h3>10</h3>
                   			</div>
-					  			<p>933 People liked your page the last 24hs. Whoohoo!</p>
+					  			<p>Tienes 10 prospectos pendientes</p>
                   		</div>
                   		<div class="col-md-2 col-sm-2 box0">
                   			<div class="box1">
 					  			<span class="li_cloud"></span>
-					  			<h3>+48</h3>
+					  			<h3>+20</h3>
                   			</div>
-					  			<p>48 New files were added in your cloud storage.</p>
+					  			<p>Tienes 20 polizas logradas al dia de hoy</p>
                   		</div>
                   		<div class="col-md-2 col-sm-2 box0">
                   			<div class="box1">
 					  			<span class="li_stack"></span>
 					  			<h3>23</h3>
                   			</div>
-					  			<p>You have 23 unread messages in your inbox.</p>
+					  			<p>Tienes 23 mensajes en tu bandeja de entrada</p>
                   		</div>
                   		<div class="col-md-2 col-sm-2 box0">
                   			<div class="box1">
@@ -81,7 +81,7 @@
                       	<div class="col-md-4 col-sm-4 mb">
                       		<div class="white-panel pn">
                       			<div class="white-header">
-						  			<h5>TOP PRODUCT</h5>
+						  			<h5>Clientes</h5>
                       			</div>
 								<div class="row">
 									<div class="col-sm-6 col-xs-6 goleft">
@@ -90,7 +90,7 @@
 									<div class="col-sm-6 col-xs-6"></div>
 	                      		</div>
 	                      		<div class="centered">
-										<img src="assets/img/product.png" width="120">
+										<img src="<?=base_url();?>/assets/img/product.png" width="120">
 	                      		</div>
                       		</div>
                       	</div><!-- /col-md-4 -->
@@ -101,7 +101,7 @@
 								<div class="white-header">
 									<h5>TOP USER</h5>
 								</div>
-								<p><img src="assets/img/ui-zac.jpg" class="img-circle" width="80"></p>
+								<p><img src="<?=base_url();?>/assets/img/ui-zac.jpg" class="img-circle" width="80"></p>
 								<p><b>Zac Snider</b></p>
 								<div class="row">
 									<div class="col-md-6">
@@ -345,7 +345,7 @@
                       		<img class="img-circle" src="assets/img/ui-sam.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
-                      		<p><a href="#">Pancho Pantera</a><br/>
+                      		<p><a href="#">Francisco Pantera</a><br/>
                       		   <muted>Available</muted>
                       		</p>
                       	</div>

@@ -5,10 +5,10 @@
               <ul class="sidebar-menu" id="nav-accordion">
               
               	  <p class="centered"><a href="profile.html"><img src="<?=base_url();?>/assets/img/ui-sam.png" class="img-circle" width="60"></a></p>
-              	  <h5 class="centered">Pancho Pantera</h5>
+              	  <h5 class="centered">Francisco Pantera</h5>
               	  	
                   <li class="mt">
-                      <a class="active" href="index.html">
+                      <a class="active" href="http://localhost/TeoriaProyecto/index.php/dashboardC">
                           <i class="fa fa-dashboard"></i>
                           <span>Tablero Principal</span>
                       </a>
@@ -21,7 +21,7 @@
                       </a>
                       <ul class="sub">
                           <li><a  href="general.html">Pagos</a></li>
-                          <li><a  href="buttons.html">Buttons</a></li>
+                          <li><a  href="<?=base_url()?>index.php/clientesC">Nuevo cliente</a></li>
                           <li><a  href="panels.html">Panels</a></li>
                       </ul>
                   </li>

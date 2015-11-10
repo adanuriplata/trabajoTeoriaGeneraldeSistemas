@@ -1,5 +1,3 @@
-
-
   <body>
 
       <!-- **********************************************************************************************************************************************************
@@ -21,7 +19,7 @@
 		            <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña">
 		            <label class="checkbox">
 		                <span class="pull-right">
-		                    <a data-toggle="modal" href="login.html#myModal"> Olvido su Contraseña?</a>
+		                    <a data-toggle="modal" href="login.html#myModal"> Contraseña Incorrecta</a>
 		
 		                </span>
 		            </label>
@@ -44,7 +42,7 @@
 		                  <div class="modal-content">
 		                      <div class="modal-header">
 		                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		                          <h4 class="modal-title">Olvido Contraseña ?</h4>
+		                          <h4 class="modal-title">Contraseña Incorrecta</h4>
 		                      </div>
 		                      <div class="modal-body">
 		                          <p>Introduzca su dirección de correo electrónico a continuación para restablecer su contraseña.</p>
