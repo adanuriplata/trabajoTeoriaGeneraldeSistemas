@@ -10,7 +10,7 @@
                   <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
               </div>
             <!--logo start-->
-            <a href="index.html" class="logo"><b>SIRED SEGUROS</b></a>
+            <a href="http://localhost/TeoriaProyecto/index.php/dashboardC" class="logo"><b>SIRED SEGUROS</b></a>
             <!--logo end-->
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->

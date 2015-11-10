@@ -20,9 +20,8 @@
                           <span>Clientes</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="general.html">Pagos</a></li>
+                          <li><a  href="#">Pagos</a></li>
                           <li><a  href="<?=base_url()?>index.php/clientesC">Nuevo cliente</a></li>
-                          <li><a  href="panels.html">Panels</a></li>
                       </ul>
                   </li>
 
@@ -32,9 +31,8 @@
                           <span>Reclamaciones</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="calendar.html">Siniestros</a></li>
-                          <li><a  href="gallery.html">Orden de Servicio</a></li>
-                          <li><a  href="todo_list.html"></a></li>
+                          <li><a  href="#">Siniestros</a></li>
+                          <li><a  href="#">Orden de Servicio</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
@@ -43,38 +41,27 @@
                           <span>Agentes</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="blank.html">Nomina</a></li>
-                          <li><a  href="login.html">Login</a></li>
-                          <li><a  href="lock_screen.html">Lock Screen</a></li>
+                          <li><a  href="<?=base_url()?>index.php/dashboardC/calendar">Calendario</a></li>
+                          <li><a  href="#">Nomina</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-tasks"></i>
-                          <span>Rentabilidad</span>
+                          <span>Ventas</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="form_component.html">Estadisticas</a></li>
+                          <li><a  href="form_component.html">Ver Ventas</a></li>
                       </ul>
                   </li>
                   <li class="sub-menu">
                       <a href="javascript:;" >
                           <i class="fa fa-th"></i>
-                          <span>Data Tables</span>
+                          <span>Rentabilidad</span>
                       </a>
                       <ul class="sub">
-                          <li><a  href="basic_table.html">Basic Table</a></li>
-                          <li><a  href="responsive_table.html">Responsive Table</a></li>
-                      </ul>
-                  </li>
-                  <li class="sub-menu">
-                      <a href="javascript:;" >
-                          <i class=" fa fa-bar-chart-o"></i>
-                          <span>Charts</span>
-                      </a>
-                      <ul class="sub">
-                          <li><a  href="morris.html">Morris</a></li>
-                          <li><a  href="chartjs.html">Chartjs</a></li>
+                          <li><a  href="#">Reportes Estadisticos</a></li>
+                          <li><a  href="#">Calculo de riesgos</a></li>
                       </ul>
                   </li>
 

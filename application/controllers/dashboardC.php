@@ -12,4 +12,12 @@ class DashboardC extends CI_Controller {
 		$this->load->view('dashboard/dashboardbody');
 		$this->load->view('dashboard/dashboardfooter');
 	}
+	public function calendar()
+	{
+		$this->load->view('dashboard/calendarhead');
+		$this->load->view('dashboard/dashboardheader');
+		$this->load->view('dashboard/dashboardnav');
+		$this->load->view('dashboard/calendar');
+		
+	}
 }

@@ -35,7 +35,7 @@
 					  			<span class="li_news"></span>
 					  			<h3>+10</h3>
                   			</div>
-					  			<p>More than 10 news were added in your reader.</p>
+					  			<p>10 noticias nuevas.</p>
                   		</div>
                   		<div class="col-md-2 col-sm-2 box0">
                   			<div class="box1">
@@ -99,17 +99,17 @@
 							<!-- WHITE PANEL - TOP USER -->
 							<div class="white-panel pn">
 								<div class="white-header">
-									<h5>TOP USER</h5>
+									<h5>Mejor Vendedor</h5>
 								</div>
 								<p><img src="<?=base_url();?>/assets/img/ui-zac.jpg" class="img-circle" width="80"></p>
-								<p><b>Zac Snider</b></p>
+								<p><b>Alejandro rodriguez</b></p>
 								<div class="row">
 									<div class="col-md-6">
-										<p class="small mt">MEMBER SINCE</p>
+										<p class="small mt">MIEMBRO DESDE</p>
 										<p>2012</p>
 									</div>
 									<div class="col-md-6">
-										<p class="small mt">TOTAL SPEND</p>
+										<p class="small mt">TOTAL VENDIDO</p>
 										<p>$ 47,60</p>
 									</div>
 								</div>
@@ -125,7 +125,7 @@
 						<div class="col-md-4 mb">
                       		<div class="darkblue-panel pn">
                       			<div class="darkblue-header">
-						  			<h5>DROPBOX STATICS</h5>
+						  			<h5>Estadisticas</h5>
                       			</div>
 								<canvas id="serverstatus02" height="120" width="120"></canvas>
 								<script>
@@ -141,7 +141,7 @@
 										];
 										var myDoughnut = new Chart(document.getElementById("serverstatus02").getContext("2d")).Doughnut(doughnutData);
 								</script>
-								<p>April 17, 2014</p>
+								<p>Abril 17, 2015</p>
 								<footer>
 									<div class="pull-left">
 										<h5><i class="fa fa-hdd-o"></i> 17 GB</h5>
@@ -169,12 +169,12 @@
 							<!-- REVENUE PANEL -->
 							<div class="darkblue-panel pn">
 								<div class="darkblue-header">
-									<h5>REVENUE</h5>
+									<h5>Riesgos</h5>
 								</div>
 								<div class="chart mt">
 									<div class="sparkline" data-type="line" data-resize="true" data-height="75" data-width="90%" data-line-width="1" data-line-color="#fff" data-spot-color="#fff" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="4" data-data="[200,135,667,333,526,996,564,123,890,464,655]"></div>
 								</div>
-								<p class="mt"><b>$ 17,980</b><br/>Month Income</p>
+								<p class="mt"><b>$ 17,980</b><br/>Mes en curso</p>
 							</div>
 						</div><!-- /col-md-4 -->
 						
@@ -183,7 +183,7 @@
 					<div class="row mt">
                       <!--CUSTOM CHART START -->
                       <div class="border-head">
-                          <h3>VISITS</h3>
+                          <h3>VENTAS</h3>
                       </div>
                       <div class="custom-bar-chart">
                           <ul class="y-axis">
@@ -235,7 +235,7 @@
                   
                   <div class="col-lg-3 ds">
                     <!--COMPLETED ACTIONS DONUTS CHART-->
-						<h3>NOTIFICATIONS</h3>
+						<h3>NOTIFICACIONES</h3>
                                         
                       <!-- First Action -->
                       <div class="desc">
@@ -294,11 +294,11 @@
                       </div>
 
                        <!-- USERS ONLINE SECTION -->
-						<h3>TEAM MEMBERS</h3>
+						<h3>MIEMBROS DEL EQUIPO</h3>
                       <!-- First Member -->
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="assets/img/ui-divya.jpg" width="35px" height="35px" align="">
+                      		<img class="img-circle" src="<?=base_url();?>assets/img/ui-divya.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
                       		<p><a href="#">DIVYA MANIAN</a><br/>
@@ -309,7 +309,7 @@
                       <!-- Second Member -->
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="assets/img/ui-sherman.jpg" width="35px" height="35px" align="">
+                      		<img class="img-circle" src="<?=base_url();?>assets/img/ui-sherman.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
                       		<p><a href="#">DJ SHERMAN</a><br/>
@@ -320,7 +320,7 @@
                       <!-- Third Member -->
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="assets/img/ui-danro.jpg" width="35px" height="35px" align="">
+                      		<img class="img-circle" src="<?=base_url();?>assets/img/ui-danro.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
                       		<p><a href="#">DAN ROGERS</a><br/>
@@ -331,7 +331,7 @@
                       <!-- Fourth Member -->
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="assets/img/ui-zac.jpg" width="35px" height="35px" align="">
+                      		<img class="img-circle" src="<?=base_url();?>assets/img/ui-zac.jpg" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
                       		<p><a href="#">Zac Sniders</a><br/>
@@ -342,7 +342,7 @@
                       <!-- Fifth Member -->
                       <div class="desc">
                       	<div class="thumb">
-                      		<img class="img-circle" src="assets/img/ui-sam.jpg" width="35px" height="35px" align="">
+                      		<img class="img-circle" src="<?=base_url();?>assets/img/ui-sam.png" width="35px" height="35px" align="">
                       	</div>
                       	<div class="details">
                       		<p><a href="#">Francisco Pantera</a><br/>
